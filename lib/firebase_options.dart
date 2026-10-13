@@ -25,19 +25,20 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'PLACEHOLDER_NO_LIVE_PROJECT',
-    appId: '1:000000000000:android:0000000000000000',
-    messagingSenderId: '000000000000',
-    projectId: 'voicedocs-placeholder',
-    storageBucket: 'voicedocs-placeholder.appspot.com',
+    apiKey: 'AIzaSyDqwzmDmzvBsbthxkSliWCRpzLMyOcn7OQ',
+    appId: '1:825557007634:android:ea77d4f30b74cbe6d087cb',
+    messagingSenderId: '825557007634',
+    projectId: 'sonofnos-voicedocs',
+    storageBucket: 'sonofnos-voicedocs.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'PLACEHOLDER_NO_LIVE_PROJECT',
-    appId: '1:000000000000:ios:0000000000000000',
-    messagingSenderId: '000000000000',
-    projectId: 'voicedocs-placeholder',
-    storageBucket: 'voicedocs-placeholder.appspot.com',
+    apiKey: 'AIzaSyAsaEyNudE_0Ioaod7WRtXyOPPjTJgBbNI',
+    appId: '1:825557007634:ios:f6d8e4d4b8b6b4c5d087cb',
+    messagingSenderId: '825557007634',
+    projectId: 'sonofnos-voicedocs',
+    storageBucket: 'sonofnos-voicedocs.firebasestorage.app',
     iosBundleId: 'com.sonofnos.voicedocs',
   );
+
 }
